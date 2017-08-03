@@ -2,6 +2,12 @@
 
 > A Vue.js project
 
+# 一个仿支付宝的单页面项目 
+
+> 技术栈： vue2.0 + vue-router + ES6 + webpack + axios + vue-scroller  未完成，后续会继续更新
+
+> 个人站也集成了一个小型vue项目，正在开发中 使用 聚合数据接口 技术栈 vue2.0 + vue-router + vuex + ES6 + webpack + axios 已开发完新闻页面，正在构思生活版块 
+
 ## Build Setup
 
 ``` bash
