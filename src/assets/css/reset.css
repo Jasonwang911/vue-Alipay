@@ -1,0 +1,42 @@
+/* @font-face {
+  font-family: 'dqjtw3';
+  src: url('../iconfont-alipay/dqjtw3.otf');
+} */
+@charset "utf-8";
+html,body{ height: 100%; width: 100%; overflow-x: hidden; }
+body{ overflow-x: hidden; }
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form,input{ margin:0; }   ol,li,ul{ margin:0; padding:0; }
+body, button, input, select, textarea { font: 12px/1.5 'dqjtw3', "Microsoft YaHei",\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", STHeiti, MingLiu; }
+h1, h2, h3, h4, h5, h6 { font-size: 100% }
+li{ list-style:none; }
+address, cite, dfn, em, var { font-style: normal }
+a { text-decoration: none !important; outline: none ;font-family:"Microsoft YaHei",\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", STHeiti, MingLiu;cursor: pointer;}
+img { border: 0 }
+button, input, select, textarea { font-size: 100% ;font-family:"Microsoft YaHei", \9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", STHeiti, MingLiu;outline: none;}
+table { border-collapse: collapse; border-spacing: 0 }
+
+.clear:after{ display:block; content:''; clear:both; visibility:hidden; height:0; }
+.clear{ zoom:1; }
+/*  onselectstart="return false;" style="-moz-user-select:none;" */
+
+.isActive{
+  color: #1b82d2 !important;
+}
+.v-enter{
+  opacity: 0;
+}
+.v-enter-to{
+  opacity: 1;
+}
+.v-enter-active{
+  transition: .6s;
+}
+.v-leave{
+  opacity: 0;
+}
+.v-leave-active{
+  transition: .3s;
+}
+.v-leave-to{
+  opacity: 1;
+}
